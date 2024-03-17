@@ -1,6 +1,6 @@
 ﻿namespace tryy
 {
-    partial class mainform
+    partial class Mainform
     {
         /// <summary>
         /// Required designer variable.
@@ -31,129 +31,144 @@
             components = new System.ComponentModel.Container();
             menuStrip1 = new MenuStrip();
             fileToolStripMenuItem = new ToolStripMenuItem();
+            openToolStripMenuItem = new ToolStripMenuItem();
             saveToolStripMenuItem = new ToolStripMenuItem();
             saveAsToolStripMenuItem = new ToolStripMenuItem();
             exitToolStripMenuItem = new ToolStripMenuItem();
             adminToolStripMenuItem = new ToolStripMenuItem();
-            manageUserToolStripMenuItem = new ToolStripMenuItem();
-            userToolStripMenuItem = new ToolStripMenuItem();
+            manageStudentToolStripMenuItem = new ToolStripMenuItem();
+            teacherToolStripMenuItem = new ToolStripMenuItem();
             changePasswordToolStripMenuItem = new ToolStripMenuItem();
+            resultToolStripMenuItem = new ToolStripMenuItem();
+            noticeToolStripMenuItem = new ToolStripMenuItem();
             utilitiesToolStripMenuItem = new ToolStripMenuItem();
-            passwordToolStripMenuItem = new ToolStripMenuItem();
-            calculatorToolStripMenuItem = new ToolStripMenuItem();
+            calenderToolStripMenuItem = new ToolStripMenuItem();
             statusStrip1 = new StatusStrip();
-            lblusername = new ToolStripStatusLabel();
+            lblUsername = new ToolStripStatusLabel();
             lbltime = new ToolStripStatusLabel();
             timer1 = new System.Windows.Forms.Timer(components);
-            addTeacherToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             statusStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
+            menuStrip1.Font = new Font("Segoe UI", 12F);
             menuStrip1.ImageScalingSize = new Size(24, 24);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, adminToolStripMenuItem, userToolStripMenuItem, utilitiesToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, adminToolStripMenuItem, teacherToolStripMenuItem, utilitiesToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 33);
+            menuStrip1.Padding = new Padding(8, 3, 0, 3);
+            menuStrip1.Size = new Size(1048, 42);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
             // fileToolStripMenuItem
             // 
-            fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { saveToolStripMenuItem, saveAsToolStripMenuItem, exitToolStripMenuItem });
+            fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { openToolStripMenuItem, saveToolStripMenuItem, saveAsToolStripMenuItem, exitToolStripMenuItem });
             fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            fileToolStripMenuItem.Size = new Size(54, 29);
+            fileToolStripMenuItem.Size = new Size(67, 36);
             fileToolStripMenuItem.Text = "File";
+            // 
+            // openToolStripMenuItem
+            // 
+            openToolStripMenuItem.Name = "openToolStripMenuItem";
+            openToolStripMenuItem.Size = new Size(197, 40);
+            openToolStripMenuItem.Text = "Open";
             // 
             // saveToolStripMenuItem
             // 
             saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            saveToolStripMenuItem.Size = new Size(173, 34);
+            saveToolStripMenuItem.Size = new Size(197, 40);
             saveToolStripMenuItem.Text = "Save";
             // 
             // saveAsToolStripMenuItem
             // 
             saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            saveAsToolStripMenuItem.Size = new Size(173, 34);
+            saveAsToolStripMenuItem.Size = new Size(197, 40);
             saveAsToolStripMenuItem.Text = "Save as";
             // 
             // exitToolStripMenuItem
             // 
             exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            exitToolStripMenuItem.Size = new Size(173, 34);
+            exitToolStripMenuItem.Size = new Size(197, 40);
             exitToolStripMenuItem.Text = "Exit";
-            exitToolStripMenuItem.Click += exitToolStripMenuItem_Click;
             // 
             // adminToolStripMenuItem
             // 
-            adminToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { manageUserToolStripMenuItem, addTeacherToolStripMenuItem });
+            adminToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { manageStudentToolStripMenuItem });
             adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            adminToolStripMenuItem.Size = new Size(81, 29);
-            adminToolStripMenuItem.Text = "Admin";
+            adminToolStripMenuItem.Size = new Size(112, 36);
+            adminToolStripMenuItem.Text = "Teacher";
             // 
-            // manageUserToolStripMenuItem
+            // manageStudentToolStripMenuItem
             // 
-            manageUserToolStripMenuItem.Name = "manageUserToolStripMenuItem";
-            manageUserToolStripMenuItem.Size = new Size(270, 34);
-            manageUserToolStripMenuItem.Text = "Manage Teacher";
-            manageUserToolStripMenuItem.Click += manageUserToolStripMenuItem_Click;
+            manageStudentToolStripMenuItem.Name = "manageStudentToolStripMenuItem";
+            manageStudentToolStripMenuItem.Size = new Size(295, 40);
+            manageStudentToolStripMenuItem.Text = "Manage Student";
+            manageStudentToolStripMenuItem.Click += manageStudentToolStripMenuItem_Click;
             // 
-            // userToolStripMenuItem
+            // teacherToolStripMenuItem
             // 
-            userToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { changePasswordToolStripMenuItem });
-            userToolStripMenuItem.Name = "userToolStripMenuItem";
-            userToolStripMenuItem.Size = new Size(86, 29);
-            userToolStripMenuItem.Text = "Teacher";
+            teacherToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { changePasswordToolStripMenuItem, resultToolStripMenuItem, noticeToolStripMenuItem });
+            teacherToolStripMenuItem.Name = "teacherToolStripMenuItem";
+            teacherToolStripMenuItem.Size = new Size(113, 36);
+            teacherToolStripMenuItem.Text = "Student";
             // 
             // changePasswordToolStripMenuItem
             // 
             changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
-            changePasswordToolStripMenuItem.Size = new Size(254, 34);
+            changePasswordToolStripMenuItem.Size = new Size(304, 40);
             changePasswordToolStripMenuItem.Text = "Change Password";
+            // 
+            // resultToolStripMenuItem
+            // 
+            resultToolStripMenuItem.Name = "resultToolStripMenuItem";
+            resultToolStripMenuItem.Size = new Size(304, 40);
+            resultToolStripMenuItem.Text = "Result";
+            // 
+            // noticeToolStripMenuItem
+            // 
+            noticeToolStripMenuItem.Name = "noticeToolStripMenuItem";
+            noticeToolStripMenuItem.Size = new Size(304, 40);
+            noticeToolStripMenuItem.Text = "Notice";
             // 
             // utilitiesToolStripMenuItem
             // 
-            utilitiesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { passwordToolStripMenuItem, calculatorToolStripMenuItem });
+            utilitiesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { calenderToolStripMenuItem });
             utilitiesToolStripMenuItem.Name = "utilitiesToolStripMenuItem";
-            utilitiesToolStripMenuItem.Size = new Size(85, 29);
+            utilitiesToolStripMenuItem.Size = new Size(109, 36);
             utilitiesToolStripMenuItem.Text = "Utilities";
             // 
-            // passwordToolStripMenuItem
+            // calenderToolStripMenuItem
             // 
-            passwordToolStripMenuItem.Name = "passwordToolStripMenuItem";
-            passwordToolStripMenuItem.Size = new Size(192, 34);
-            passwordToolStripMenuItem.Text = "Notepad";
-            passwordToolStripMenuItem.Click += passwordToolStripMenuItem_Click;
-            // 
-            // calculatorToolStripMenuItem
-            // 
-            calculatorToolStripMenuItem.Name = "calculatorToolStripMenuItem";
-            calculatorToolStripMenuItem.Size = new Size(192, 34);
-            calculatorToolStripMenuItem.Text = "Calculator";
-            calculatorToolStripMenuItem.Click += calculatorToolStripMenuItem_Click;
+            calenderToolStripMenuItem.Name = "calenderToolStripMenuItem";
+            calenderToolStripMenuItem.Size = new Size(270, 40);
+            calenderToolStripMenuItem.Text = "Calender";
+            calenderToolStripMenuItem.Click += calenderToolStripMenuItem_Click;
             // 
             // statusStrip1
             // 
+            statusStrip1.Font = new Font("Segoe UI", 12F);
             statusStrip1.ImageScalingSize = new Size(24, 24);
-            statusStrip1.Items.AddRange(new ToolStripItem[] { lblusername, lbltime });
-            statusStrip1.Location = new Point(0, 418);
+            statusStrip1.Items.AddRange(new ToolStripItem[] { lblUsername, lbltime });
+            statusStrip1.Location = new Point(0, 607);
             statusStrip1.Name = "statusStrip1";
-            statusStrip1.Size = new Size(800, 32);
+            statusStrip1.Size = new Size(1048, 39);
             statusStrip1.TabIndex = 2;
             statusStrip1.Text = "statusStrip1";
             // 
-            // lblusername
+            // lblUsername
             // 
-            lblusername.Name = "lblusername";
-            lblusername.Size = new Size(179, 25);
-            lblusername.Text = "toolStripStatusLabel1";
+            lblUsername.Name = "lblUsername";
+            lblUsername.Size = new Size(237, 32);
+            lblUsername.Text = "toolStripStatusLabel1";
+            lblUsername.Click += toolStripStatusLabel1_Click;
             // 
             // lbltime
             // 
             lbltime.Name = "lbltime";
-            lbltime.Size = new Size(179, 25);
+            lbltime.Size = new Size(237, 32);
             lbltime.Text = "toolStripStatusLabel2";
             // 
             // timer1
@@ -161,25 +176,24 @@
             timer1.Enabled = true;
             timer1.Tick += timer1_Tick;
             // 
-            // addTeacherToolStripMenuItem
+            // Mainform
             // 
-            addTeacherToolStripMenuItem.Name = "addTeacherToolStripMenuItem";
-            addTeacherToolStripMenuItem.Size = new Size(270, 34);
-            addTeacherToolStripMenuItem.Text = "Add Teacher";
-            // 
-            // mainform
-            // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = Properties.Resources.logo1_removebg_preview;
+            BackgroundImageLayout = ImageLayout.Center;
+            ClientSize = new Size(1048, 646);
             Controls.Add(statusStrip1);
             Controls.Add(menuStrip1);
+            DoubleBuffered = true;
+            Font = new Font("Segoe UI", 12F);
             IsMdiContainer = true;
             MainMenuStrip = menuStrip1;
-            Name = "mainform";
-            Text = "mainform";
+            Margin = new Padding(4);
+            Name = "Mainform";
+            Text = "Mainform";
             WindowState = FormWindowState.Maximized;
-            Load += mainform_Load;
+            Click += calenderToolStripMenuItem_Click;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             statusStrip1.ResumeLayout(false);
@@ -192,20 +206,21 @@
 
         private MenuStrip menuStrip1;
         private ToolStripMenuItem fileToolStripMenuItem;
-        private ToolStripMenuItem userToolStripMenuItem;
+        private ToolStripMenuItem adminToolStripMenuItem;
+        private ToolStripMenuItem teacherToolStripMenuItem;
         private ToolStripMenuItem utilitiesToolStripMenuItem;
+        private ToolStripMenuItem calenderToolStripMenuItem;
+        private ToolStripMenuItem openToolStripMenuItem;
         private ToolStripMenuItem saveToolStripMenuItem;
         private ToolStripMenuItem saveAsToolStripMenuItem;
         private ToolStripMenuItem exitToolStripMenuItem;
-        private ToolStripMenuItem manageUserToolStripMenuItem;
+        private ToolStripMenuItem manageStudentToolStripMenuItem;
         private ToolStripMenuItem changePasswordToolStripMenuItem;
-        private ToolStripMenuItem passwordToolStripMenuItem;
-        private ToolStripMenuItem calculatorToolStripMenuItem;
-        public ToolStripMenuItem adminToolStripMenuItem;
+        private ToolStripMenuItem resultToolStripMenuItem;
+        private ToolStripMenuItem noticeToolStripMenuItem;
         private StatusStrip statusStrip1;
-        private ToolStripStatusLabel lblusername;
         private ToolStripStatusLabel lbltime;
         private System.Windows.Forms.Timer timer1;
-        private ToolStripMenuItem addTeacherToolStripMenuItem;
+        public ToolStripStatusLabel lblUsername;
     }
 }

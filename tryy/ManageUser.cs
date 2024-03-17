@@ -19,9 +19,14 @@ namespace tryy
 
         private void label2_Click(object sender, EventArgs e)
         {
-            UCcreate frm=new UCcreate();
+            UCcreate frm = new UCcreate();
             panel4.Controls.Clear();
             panel4.Controls.Add(frm);
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

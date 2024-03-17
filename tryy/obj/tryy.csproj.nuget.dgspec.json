@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shinigami\\Documents\\dot net\\tryy\\tryy\\tryy.csproj": {}
+    "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\tryy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shinigami\\Documents\\dot net\\tryy\\tryy\\tryy.csproj": {
+    "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\tryy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shinigami\\Documents\\dot net\\tryy\\tryy\\tryy.csproj",
+        "projectUniqueName": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\tryy.csproj",
         "projectName": "tryy",
-        "projectPath": "C:\\Users\\Shinigami\\Documents\\dot net\\tryy\\tryy\\tryy.csproj",
+        "projectPath": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\tryy.csproj",
         "packagesPath": "C:\\Users\\Shinigami\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shinigami\\Documents\\dot net\\tryy\\tryy\\obj\\",
+        "outputPath": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shinigami\\AppData\\Roaming\\NuGet\\NuGet.Config",

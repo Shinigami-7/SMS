@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\uccreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\uccreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\manageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\manageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|c:\\users\\shinigami\\desktop\\tms\\tms\\tryy\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\manageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\manageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Mainform.cs",
+              "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\Mainform.cs",
+              "RelativeDocumentMoniker": "tryy\\Mainform.cs",
+              "ToolTip": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\Mainform.cs",
+              "RelativeToolTip": "tryy\\Mainform.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAA2wDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T07:11:41.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\ManageUser.cs",
+              "RelativeDocumentMoniker": "tryy\\ManageUser.cs",
+              "ToolTip": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\ManageUser.cs [Design]",
+              "RelativeToolTip": "tryy\\ManageUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T07:01:14.723Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\Form1.cs",
+              "RelativeDocumentMoniker": "tryy\\Form1.cs",
+              "ToolTip": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\Form1.cs",
+              "RelativeToolTip": "tryy\\Form1.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAYwBIAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T07:06:53.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UCcreate.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\UCcreate.cs",
+              "RelativeDocumentMoniker": "tryy\\UCcreate.cs",
+              "ToolTip": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\UCcreate.cs [Design]",
+              "RelativeToolTip": "tryy\\UCcreate.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T07:01:22.404Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\Form1.cs",
+              "RelativeDocumentMoniker": "tryy\\Form1.cs",
+              "ToolTip": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\Form1.cs [Design]",
+              "RelativeToolTip": "tryy\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T07:01:08.782Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Mainform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\Mainform.cs",
+              "RelativeDocumentMoniker": "tryy\\Mainform.cs",
+              "ToolTip": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\Mainform.cs [Design]",
+              "RelativeToolTip": "tryy\\Mainform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T07:06:40.813Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManageUser.cs",
+              "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\ManageUser.cs",
+              "RelativeDocumentMoniker": "tryy\\ManageUser.cs",
+              "ToolTip": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\ManageUser.cs",
+              "RelativeToolTip": "tryy\\ManageUser.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAIA+wBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T07:12:46.899Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

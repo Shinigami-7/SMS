@@ -2,7 +2,7 @@ namespace tryy
 {
     public partial class Form1 : Form
     {
-        #this is comment
+        
         public Form1()
         {
             InitializeComponent();
@@ -15,36 +15,37 @@ namespace tryy
 
         private void btnsubmit_Click(object sender, EventArgs e)
         {
-            mainform frm = new mainform();
-            if (string.IsNullOrWhiteSpace(txtusername.Text))
-            {
-                MessageBox.Show("Please enter a username");
-                txtusername.Focus();
-                return;
-            }
-            if (string.IsNullOrWhiteSpace(txtpassword.Text))
-            {
-                MessageBox.Show("Please enter a Password");
-                txtpassword.Focus();
-                return;
-            }
-            if (cbousertype.Text == "Admin")
-            {
-                frm.Show();
-                this.Hide();
-            }
-            else if (cbousertype.Text == "User")
-            {
-                frm.adminToolStripMenuItem.Enabled = false;
-                frm.Show();
-                this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("Please choose user type");
-                return;
+            Mainform frm = new Mainform();
+            frm.lblUsername.Text ="Welcome "+txtusername.Text;
+            //if (string.IsNullOrWhiteSpace(txtusername.Text))
+            //{
+            //    MessageBox.Show("Please enter a username");
+            //    txtusername.Focus();
+            //    return;
+            //}
+            //if (string.IsNullOrWhiteSpace(txtpassword.Text))
+            //{
+            //    MessageBox.Show("Please enter a Password");
+            //    txtpassword.Focus();
+            //    return;
+            //}
+            //if (cbousertype.Text == "Admin")
+            //{
+            //    frm.Show();
+            //    this.Hide();
+            //}
+            //else if (cbousertype.Text == "User")
+            //{
+            //    frm.adminToolStripMenuItem.Enabled = false;
+            //    frm.Show();
+            //    this.Hide();
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Please choose user type");
+            //    return;
 
-            }
+            //}
             frm.Show();
             this.Hide();
         }

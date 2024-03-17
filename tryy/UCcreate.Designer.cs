@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
-            label1 = new Label();
             label2 = new Label();
+            label1 = new Label();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -46,23 +46,23 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Create User";
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(75, 115);
-            label1.Name = "label1";
-            label1.Size = new Size(78, 32);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
-            // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(75, 196);
+            label2.Location = new Point(75, 160);
             label2.Name = "label2";
             label2.Size = new Size(78, 32);
             label2.TabIndex = 1;
             label2.Text = "label2";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(75, 98);
+            label1.Name = "label1";
+            label1.Size = new Size(78, 32);
+            label1.TabIndex = 0;
+            label1.Text = "label1";
             // 
             // UCcreate
             // 

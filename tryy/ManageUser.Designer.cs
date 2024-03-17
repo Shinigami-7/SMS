@@ -32,11 +32,11 @@
             label1 = new Label();
             panel2 = new Panel();
             panel3 = new Panel();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
             label2 = new Label();
             panel4 = new Panel();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
             SuspendLayout();
@@ -55,11 +55,12 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
-            label1.Location = new Point(233, 9);
+            label1.Location = new Point(316, 9);
             label1.Name = "label1";
-            label1.Size = new Size(331, 54);
+            label1.Size = new Size(335, 54);
             label1.TabIndex = 0;
-            label1.Text = "Manage Teacher";
+            label1.Text = "Manage Student";
+            label1.Click += label1_Click;
             // 
             // panel2
             // 
@@ -82,6 +83,42 @@
             panel3.Size = new Size(167, 417);
             panel3.TabIndex = 2;
             // 
+            // label5
+            // 
+            label5.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            label5.BackColor = Color.White;
+            label5.Font = new Font("Segoe UI", 10F);
+            label5.Location = new Point(12, 193);
+            label5.Name = "label5";
+            label5.Size = new Size(122, 37);
+            label5.TabIndex = 3;
+            label5.Text = "Exit";
+            label5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label4
+            // 
+            label4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            label4.BackColor = Color.White;
+            label4.Font = new Font("Segoe UI", 10F);
+            label4.Location = new Point(12, 142);
+            label4.Name = "label4";
+            label4.Size = new Size(122, 37);
+            label4.TabIndex = 2;
+            label4.Text = "Delete User";
+            label4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label3
+            // 
+            label3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            label3.BackColor = Color.White;
+            label3.Font = new Font("Segoe UI", 10F);
+            label3.Location = new Point(12, 87);
+            label3.Name = "label3";
+            label3.Size = new Size(122, 37);
+            label3.TabIndex = 1;
+            label3.Text = "Edit User";
+            label3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // label2
             // 
             label2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
@@ -102,42 +139,6 @@
             panel4.Name = "panel4";
             panel4.Size = new Size(863, 417);
             panel4.TabIndex = 3;
-            // 
-            // label3
-            // 
-            label3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            label3.BackColor = Color.White;
-            label3.Font = new Font("Segoe UI", 10F);
-            label3.Location = new Point(12, 87);
-            label3.Name = "label3";
-            label3.Size = new Size(122, 37);
-            label3.TabIndex = 1;
-            label3.Text = "Edit User";
-            label3.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label4
-            // 
-            label4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            label4.BackColor = Color.White;
-            label4.Font = new Font("Segoe UI", 10F);
-            label4.Location = new Point(12, 142);
-            label4.Name = "label4";
-            label4.Size = new Size(122, 37);
-            label4.TabIndex = 2;
-            label4.Text = "Delete User";
-            label4.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label5
-            // 
-            label5.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            label5.BackColor = Color.White;
-            label5.Font = new Font("Segoe UI", 10F);
-            label5.Location = new Point(12, 193);
-            label5.Name = "label5";
-            label5.Size = new Size(122, 37);
-            label5.TabIndex = 3;
-            label5.Text = "Exit";
-            label5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // ManageUser
             // 
