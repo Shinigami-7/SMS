@@ -39,3 +39,5 @@ C:\Users\Shinigami\Desktop\TMS\TMS\tryy\bin\Debug\net8.0-windows\tryy.dll
 C:\Users\Shinigami\Desktop\TMS\TMS\tryy\bin\Debug\net8.0-windows\tryy.pdb
 C:\Users\Shinigami\Desktop\TMS\TMS\tryy\obj\Debug\net8.0-windows\tryy.genruntimeconfig.cache
 C:\Users\Shinigami\Desktop\TMS\TMS\tryy\obj\Debug\net8.0-windows\ref\tryy.dll
+C:\Users\Shinigami\Desktop\TMS\TMS\tryy\obj\Debug\net8.0-windows\tryy.Changepwd.resources
+C:\Users\Shinigami\Desktop\TMS\TMS\tryy\obj\Debug\net8.0-windows\tryy.UCSearch.resources

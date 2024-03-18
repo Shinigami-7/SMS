@@ -10,26 +10,18 @@ using System.Windows.Forms;
 
 namespace tryy
 {
-    public partial class UCcreate : UserControl
+    public partial class UCSearch : UserControl
     {
-        public UCcreate()
+        public UCSearch()
         {
             InitializeComponent();
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
+       
 
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
+        private void UCSearch_Load(object sender, EventArgs e)
         {
             cboclass.SelectedIndex = 0;
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-          
         }
     }
 }

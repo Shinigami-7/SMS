@@ -22,11 +22,24 @@ namespace tryy
             UCcreate frm = new UCcreate();
             panel4.Controls.Clear();
             panel4.Controls.Add(frm);
+
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            UCSearch frm = new UCSearch();
+            panel4.Controls.Clear();
+            panel4.Controls.Add(frm);
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

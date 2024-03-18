@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Mainform));
             menuStrip1 = new MenuStrip();
             fileToolStripMenuItem = new ToolStripMenuItem();
             openToolStripMenuItem = new ToolStripMenuItem();
@@ -103,6 +104,7 @@
             // 
             // manageStudentToolStripMenuItem
             // 
+            manageStudentToolStripMenuItem.BackgroundImageLayout = ImageLayout.Zoom;
             manageStudentToolStripMenuItem.Name = "manageStudentToolStripMenuItem";
             manageStudentToolStripMenuItem.Size = new Size(295, 40);
             manageStudentToolStripMenuItem.Text = "Manage Student";
@@ -120,6 +122,7 @@
             changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
             changePasswordToolStripMenuItem.Size = new Size(304, 40);
             changePasswordToolStripMenuItem.Text = "Change Password";
+            changePasswordToolStripMenuItem.Click += changePasswordToolStripMenuItem_Click;
             // 
             // resultToolStripMenuItem
             // 
@@ -143,7 +146,7 @@
             // calenderToolStripMenuItem
             // 
             calenderToolStripMenuItem.Name = "calenderToolStripMenuItem";
-            calenderToolStripMenuItem.Size = new Size(270, 40);
+            calenderToolStripMenuItem.Size = new Size(213, 40);
             calenderToolStripMenuItem.Text = "Calender";
             calenderToolStripMenuItem.Click += calenderToolStripMenuItem_Click;
             // 
@@ -180,18 +183,18 @@
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.logo1_removebg_preview;
-            BackgroundImageLayout = ImageLayout.Center;
+            BackgroundImage = Properties.Resources.no_bg;
+            BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(1048, 646);
             Controls.Add(statusStrip1);
             Controls.Add(menuStrip1);
             DoubleBuffered = true;
             Font = new Font("Segoe UI", 12F);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             IsMdiContainer = true;
             MainMenuStrip = menuStrip1;
             Margin = new Padding(4);
             Name = "Mainform";
-            Text = "Mainform";
             WindowState = FormWindowState.Maximized;
             Click += calenderToolStripMenuItem_Click;
             menuStrip1.ResumeLayout(false);

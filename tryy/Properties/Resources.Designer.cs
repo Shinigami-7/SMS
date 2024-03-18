@@ -73,6 +73,16 @@ namespace tryy.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap no_bg {
+            get {
+                object obj = ResourceManager.GetObject("no bg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap userfront {
             get {
                 object obj = ResourceManager.GetObject("userfront", resourceCulture);

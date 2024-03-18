@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             label1 = new Label();
             label2 = new Label();
             txtusername = new TextBox();
@@ -37,7 +38,7 @@
             pictureBox1 = new PictureBox();
             cbousertype = new ComboBox();
             label3 = new Label();
-            linkLabel1 = new LinkLabel();
+            lblForgetpwd = new LinkLabel();
             lblnewreg = new LinkLabel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -56,7 +57,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F);
-            label2.Location = new Point(285, 161);
+            label2.Location = new Point(285, 157);
             label2.Name = "label2";
             label2.Size = new Size(111, 32);
             label2.TabIndex = 0;
@@ -117,27 +118,28 @@
             cbousertype.Name = "cbousertype";
             cbousertype.Size = new Size(227, 33);
             cbousertype.TabIndex = 2;
+            cbousertype.SelectedIndexChanged += cbousertype_SelectedIndexChanged;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F);
-            label3.Location = new Point(285, 227);
+            label3.Location = new Point(285, 226);
             label3.Name = "label3";
             label3.Size = new Size(108, 32);
             label3.TabIndex = 0;
             label3.Text = "Usertype";
             // 
-            // linkLabel1
+            // lblForgetpwd
             // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(404, 334);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(144, 25);
-            linkLabel1.TabIndex = 6;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Forget Password";
-            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
+            lblForgetpwd.AutoSize = true;
+            lblForgetpwd.Location = new Point(404, 334);
+            lblForgetpwd.Name = "lblForgetpwd";
+            lblForgetpwd.Size = new Size(144, 25);
+            lblForgetpwd.TabIndex = 6;
+            lblForgetpwd.TabStop = true;
+            lblForgetpwd.Text = "Forget Password";
+            lblForgetpwd.LinkClicked += linkLabel1_LinkClicked;
             // 
             // lblnewreg
             // 
@@ -148,6 +150,7 @@
             lblnewreg.TabIndex = 7;
             lblnewreg.TabStop = true;
             lblnewreg.Text = "New Register";
+            lblnewreg.LinkClicked += lblnewreg_LinkClicked_1;
             lblnewreg.MouseLeave += linkLabel2_MouseLeave;
             lblnewreg.MouseHover += linkLabel2_MouseHover;
             // 
@@ -157,7 +160,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(822, 485);
             Controls.Add(lblnewreg);
-            Controls.Add(linkLabel1);
+            Controls.Add(lblForgetpwd);
             Controls.Add(pictureBox1);
             Controls.Add(btncancel);
             Controls.Add(btnsubmit);
@@ -167,11 +170,11 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
@@ -189,7 +192,7 @@
         private PictureBox pictureBox1;
         private ComboBox cbousertype;
         private Label label3;
-        private LinkLabel linkLabel1;
+        private LinkLabel lblForgetpwd;
         private LinkLabel lblnewreg;
     }
 }

@@ -2,7 +2,7 @@ namespace tryy
 {
     public partial class Form1 : Form
     {
-        
+
         public Form1()
         {
             InitializeComponent();
@@ -16,7 +16,7 @@ namespace tryy
         private void btnsubmit_Click(object sender, EventArgs e)
         {
             Mainform frm = new Mainform();
-            frm.lblUsername.Text ="Welcome "+txtusername.Text;
+            frm.lblUsername.Text = "Welcome " + txtusername.Text;
             //if (string.IsNullOrWhiteSpace(txtusername.Text))
             //{
             //    MessageBox.Show("Please enter a username");
@@ -57,7 +57,9 @@ namespace tryy
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            Changepwd frm = new Changepwd();
+            frm.Show();
+            this.Hide();
         }
 
         private void linkLabel2_MouseHover(object sender, EventArgs e)
@@ -68,6 +70,23 @@ namespace tryy
         private void linkLabel2_MouseLeave(object sender, EventArgs e)
         {
             lblnewreg.ForeColor = SystemColors.ControlText;
+        }
+
+        private void cbousertype_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblnewreg_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void lblnewreg_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            UCcreate frm = new UCcreate();
+            frm.Show();
+            this.Hide();
         }
     }
 }

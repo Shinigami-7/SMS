@@ -43,6 +43,14 @@ namespace tryy
         {
             ManageUser frm = new ManageUser();
             frm.Show();
+            frm.MdiParent = this;
+        }
+
+        private void changePasswordToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Changepwd frm =new Changepwd();
+            frm.Show();
+            frm.MdiParent = this;
         }
     }
 }

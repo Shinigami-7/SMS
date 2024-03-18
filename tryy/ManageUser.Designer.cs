@@ -94,13 +94,14 @@
             label5.TabIndex = 3;
             label5.Text = "Exit";
             label5.TextAlign = ContentAlignment.MiddleCenter;
+            label5.Click += label5_Click;
             // 
             // label4
             // 
             label4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             label4.BackColor = Color.White;
             label4.Font = new Font("Segoe UI", 10F);
-            label4.Location = new Point(12, 142);
+            label4.Location = new Point(12, 137);
             label4.Name = "label4";
             label4.Size = new Size(122, 37);
             label4.TabIndex = 2;
@@ -112,12 +113,13 @@
             label3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             label3.BackColor = Color.White;
             label3.Font = new Font("Segoe UI", 10F);
-            label3.Location = new Point(12, 87);
+            label3.Location = new Point(12, 81);
             label3.Name = "label3";
             label3.Size = new Size(122, 37);
             label3.TabIndex = 1;
-            label3.Text = "Edit User";
+            label3.Text = "Search User";
             label3.TextAlign = ContentAlignment.MiddleCenter;
+            label3.Click += label3_Click;
             // 
             // label2
             // 
