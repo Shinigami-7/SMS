@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManageUser));
             panel1 = new Panel();
             label1 = new Label();
             panel2 = new Panel();
             panel3 = new Panel();
             label5 = new Label();
-            label4 = new Label();
             label3 = new Label();
             label2 = new Label();
             panel4 = new Panel();
@@ -74,7 +74,6 @@
             // 
             panel3.BackColor = Color.Silver;
             panel3.Controls.Add(label5);
-            panel3.Controls.Add(label4);
             panel3.Controls.Add(label3);
             panel3.Controls.Add(label2);
             panel3.Dock = DockStyle.Left;
@@ -88,32 +87,20 @@
             label5.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             label5.BackColor = Color.White;
             label5.Font = new Font("Segoe UI", 10F);
-            label5.Location = new Point(12, 193);
+            label5.Location = new Point(12, 131);
             label5.Name = "label5";
             label5.Size = new Size(122, 37);
             label5.TabIndex = 3;
-            label5.Text = "Exit";
+            label5.Text = "Back";
             label5.TextAlign = ContentAlignment.MiddleCenter;
             label5.Click += label5_Click;
-            // 
-            // label4
-            // 
-            label4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            label4.BackColor = Color.White;
-            label4.Font = new Font("Segoe UI", 10F);
-            label4.Location = new Point(12, 137);
-            label4.Name = "label4";
-            label4.Size = new Size(122, 37);
-            label4.TabIndex = 2;
-            label4.Text = "Delete User";
-            label4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
             label3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             label3.BackColor = Color.White;
             label3.Font = new Font("Segoe UI", 10F);
-            label3.Location = new Point(12, 81);
+            label3.Location = new Point(12, 78);
             label3.Name = "label3";
             label3.Size = new Size(122, 37);
             label3.TabIndex = 1;
@@ -147,10 +134,14 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1030, 557);
+            ControlBox = false;
             Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "ManageUser";
             Text = "ManageUser";
             panel1.ResumeLayout(false);
@@ -168,7 +159,6 @@
         private Panel panel4;
         private Label label2;
         private Label label5;
-        private Label label4;
         private Label label3;
     }
 }

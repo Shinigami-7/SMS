@@ -13,6 +13,9 @@
     <Compile Update="ManageUser.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="NewReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="UCcreate.cs">
       <SubType>UserControl</SubType>
     </Compile>

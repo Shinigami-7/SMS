@@ -41,3 +41,14 @@ C:\Users\Shinigami\Desktop\TMS\TMS\tryy\obj\Debug\net8.0-windows\tryy.genruntime
 C:\Users\Shinigami\Desktop\TMS\TMS\tryy\obj\Debug\net8.0-windows\ref\tryy.dll
 C:\Users\Shinigami\Desktop\TMS\TMS\tryy\obj\Debug\net8.0-windows\tryy.Changepwd.resources
 C:\Users\Shinigami\Desktop\TMS\TMS\tryy\obj\Debug\net8.0-windows\tryy.UCSearch.resources
+C:\Users\Shinigami\Desktop\TMS\TMS\tryy\obj\Debug\net8.0-windows\tryy.NewReg.resources
+C:\Users\Shinigami\Desktop\TMS\TMS\tryy\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\Shinigami\Desktop\TMS\TMS\tryy\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Shinigami\Desktop\TMS\TMS\tryy\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Shinigami\Desktop\TMS\TMS\tryy\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Shinigami\Desktop\TMS\TMS\tryy\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Shinigami\Desktop\TMS\TMS\tryy\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Shinigami\Desktop\TMS\TMS\tryy\bin\Debug\net8.0-windows\Businesslayer.dll
+C:\Users\Shinigami\Desktop\TMS\TMS\tryy\bin\Debug\net8.0-windows\Businesslayer.pdb
+C:\Users\Shinigami\Desktop\TMS\TMS\tryy\obj\Debug\net8.0-windows\tryy.csproj.AssemblyReference.cache
+C:\Users\Shinigami\Desktop\TMS\TMS\tryy\obj\Debug\net8.0-windows\tryy.csproj.Up2Date

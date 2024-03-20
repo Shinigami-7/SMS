@@ -105,7 +105,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(groupBox1);
             Name = "UCSearch";
-            Size = new Size(941, 348);
+            Size = new Size(941, 481);
             Load += UCSearch_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();

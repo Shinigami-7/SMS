@@ -10,42 +10,24 @@ namespace tryy
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            cbousertype.SelectedIndex = 0;
         }
 
         private void btnsubmit_Click(object sender, EventArgs e)
         {
             Mainform frm = new Mainform();
             frm.lblUsername.Text = "Welcome " + txtusername.Text;
-            //if (string.IsNullOrWhiteSpace(txtusername.Text))
-            //{
-            //    MessageBox.Show("Please enter a username");
-            //    txtusername.Focus();
-            //    return;
-            //}
-            //if (string.IsNullOrWhiteSpace(txtpassword.Text))
-            //{
-            //    MessageBox.Show("Please enter a Password");
-            //    txtpassword.Focus();
-            //    return;
-            //}
-            //if (cbousertype.Text == "Admin")
-            //{
-            //    frm.Show();
-            //    this.Hide();
-            //}
-            //else if (cbousertype.Text == "User")
-            //{
-            //    frm.adminToolStripMenuItem.Enabled = false;
-            //    frm.Show();
-            //    this.Hide();
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Please choose user type");
-            //    return;
-
-            //}
+            if (string.IsNullOrWhiteSpace(txtusername.Text))
+            {
+               MessageBox.Show("Please enter a username");
+                txtusername.Focus();
+                return;
+            }
+            if (string.IsNullOrWhiteSpace(txtpassword.Text))
+            {
+                MessageBox.Show("Please enter a Password");
+                txtpassword.Focus();
+                return;
+            }
             frm.Show();
             this.Hide();
         }
@@ -84,9 +66,23 @@ namespace tryy
 
         private void lblnewreg_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            UCcreate frm = new UCcreate();
+            NewReg frm = new NewReg();
             frm.Show();
             this.Hide();
+        }
+
+        private void txtusername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtusername_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsLetter(e.KeyChar) && e.KeyChar != (char)Keys.Back && e.KeyChar != (char)Keys.Space)
+            {
+                // Cancel the key press if it's not an alphabetic character, backspace, or space
+                e.Handled = true;
+            }
         }
     }
 }

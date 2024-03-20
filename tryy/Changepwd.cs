@@ -47,7 +47,9 @@ namespace tryy
 
         private void btncancel_Click(object sender, EventArgs e)
         {
-            Close();
+            this.Close();
+            Form1 frm = new Form1();
+            frm.Show();
         }
     }
 }
