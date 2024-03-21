@@ -34,7 +34,9 @@
             txtSearch = new TextBox();
             label1 = new Label();
             button1 = new Button();
+            dataGridView1 = new DataGridView();
             groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // groupBox1
@@ -99,16 +101,27 @@
             button1.Text = "Search";
             button1.UseVisualStyleBackColor = true;
             // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(20, 372);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 62;
+            dataGridView1.Size = new Size(905, 411);
+            dataGridView1.TabIndex = 1;
+            // 
             // UCSearch
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(dataGridView1);
             Controls.Add(groupBox1);
             Name = "UCSearch";
-            Size = new Size(941, 481);
+            Size = new Size(941, 854);
             Load += UCSearch_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
 
@@ -120,5 +133,6 @@
         private Button button1;
         private Label label2;
         private ComboBox cboclass;
+        private DataGridView dataGridView1;
     }
 }

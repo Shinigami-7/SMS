@@ -29,7 +29,7 @@ namespace tryy
         {
             if (string.IsNullOrWhiteSpace(txtname.Text))
             {
-                MessageBox.Show("Please fill in the TextBox.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Please enter name.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return; // Prevent further action
             }
             if (txtcpassword.Text != txtpassword.Text)
@@ -39,7 +39,7 @@ namespace tryy
                 txtcpassword.Focus();
                 return;
             }
-            int i = blu.CreateUser(txtname.Text, txtpassword.Text, txtcpassword.Text, txtemail.Text, cbogender.Text);
+            int i = blu.CreateUser(txtname.Text, txtusername.Text, txtpassword.Text, txtcpassword.Text, txtemail.Text, cbogender.Text);
             if (i > 0)
             {
                 MessageBox.Show("User Created");
@@ -63,8 +63,18 @@ namespace tryy
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
-            Form1 frm= new Form1();
+            Form1 frm = new Form1();
             frm.Show();
+        }
+
+        private void txtusername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtname_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

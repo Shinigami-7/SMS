@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tryy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdeecf1cbbc4d565b1249e71bd11c9202b6a8957")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32e84088e2c7c0ecece66082a967b30359842c59")]
 [assembly: System.Reflection.AssemblyProductAttribute("tryy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tryy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
