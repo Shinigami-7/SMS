@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Businesslayer;
 
 namespace tryy
 {
@@ -16,7 +17,7 @@ namespace tryy
         {
             InitializeComponent();
         }
-
+        BLLStudent bls = new BLLStudent();
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -29,7 +30,17 @@ namespace tryy
 
         private void button1_Click(object sender, EventArgs e)
         {
-          
+            int i = bls.CreateStudent(txtname.Text, txtguardianname.Text, txtguardianno.Text, cboclass.Text);
+            if (i > 0)
+            {
+                MessageBox.Show("User Created");
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ManageUser frm = new ManageUser();
+            frm.Close();
         }
     }
 }

@@ -1,3 +1,6 @@
+using Businesslayer;
+using System.Data;
+using System.Data.SqlClient;
 namespace tryy
 {
     public partial class Form1 : Form
@@ -11,6 +14,7 @@ namespace tryy
         private void Form1_Load(object sender, EventArgs e)
         {
         }
+        BLLUser blu=new BLLUser();
 
         private void btnsubmit_Click(object sender, EventArgs e)
         {
@@ -30,6 +34,7 @@ namespace tryy
             }
             frm.Show();
             this.Hide();
+            
         }
 
         private void btncancel_Click(object sender, EventArgs e)

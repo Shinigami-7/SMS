@@ -3,34 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|c:\\users\\shinigami\\desktop\\tms\\tms\\tryy\\newreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\newreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|c:\\users\\shinigami\\desktop\\tms\\tms\\tryy\\newreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\newreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5B896E2-7CCC-4FED-939C-5A1FEA500016}|Businesslayer\\Businesslayer.csproj|c:\\users\\shinigami\\desktop\\tms\\tms\\businesslayer\\blluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5B896E2-7CCC-4FED-939C-5A1FEA500016}|Businesslayer\\Businesslayer.csproj|solutionrelative:businesslayer\\blluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|c:\\users\\shinigami\\desktop\\tms\\tms\\tryy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\ucsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\ucsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -39,32 +11,64 @@
       "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\ucsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\uccreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\uccreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\uccreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\uccreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\changepwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\changepwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F5B896E2-7CCC-4FED-939C-5A1FEA500016}|Businesslayer\\Businesslayer.csproj|c:\\users\\shinigami\\desktop\\tms\\tms\\businesslayer\\bllstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5B896E2-7CCC-4FED-939C-5A1FEA500016}|Businesslayer\\Businesslayer.csproj|solutionrelative:businesslayer\\bllstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5B896E2-7CCC-4FED-939C-5A1FEA500016}|Businesslayer\\Businesslayer.csproj|c:\\users\\shinigami\\desktop\\tms\\tms\\businesslayer\\blluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5B896E2-7CCC-4FED-939C-5A1FEA500016}|Businesslayer\\Businesslayer.csproj|solutionrelative:businesslayer\\blluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\manageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\manageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\changepwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\changepwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\uccreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\uccreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\manageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\manageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\uccreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\uccreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\newreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\newreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\newreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\newreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\changepwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\changepwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\changepwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\changepwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -83,19 +87,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "BLLStudent.cs",
+              "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\Businesslayer\\BLLStudent.cs",
+              "RelativeDocumentMoniker": "Businesslayer\\BLLStudent.cs",
+              "ToolTip": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\Businesslayer\\BLLStudent.cs",
+              "RelativeToolTip": "Businesslayer\\BLLStudent.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwB4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:44:48.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BLLUser.cs",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\Businesslayer\\BLLUser.cs",
               "RelativeDocumentMoniker": "Businesslayer\\BLLUser.cs",
               "ToolTip": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\Businesslayer\\BLLUser.cs",
               "RelativeToolTip": "Businesslayer\\BLLUser.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBQAAAA2AAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-19T13:47:42.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "NewReg.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\NewReg.cs",
               "RelativeDocumentMoniker": "tryy\\NewReg.cs",
@@ -107,33 +124,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "NewReg.cs",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\NewReg.cs",
               "RelativeDocumentMoniker": "tryy\\NewReg.cs",
               "ToolTip": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\NewReg.cs",
               "RelativeToolTip": "tryy\\NewReg.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAIwDUAAAAXAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwC0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-19T08:23:38.421Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\Form1.cs",
               "RelativeDocumentMoniker": "tryy\\Form1.cs",
               "ToolTip": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\Form1.cs",
               "RelativeToolTip": "tryy\\Form1.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAjwEQAAAAjAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T07:06:53.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\Form1.cs",
               "RelativeDocumentMoniker": "tryy\\Form1.cs",
@@ -145,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\Program.cs",
               "RelativeDocumentMoniker": "tryy\\Program.cs",
@@ -158,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Mainform.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\Mainform.cs",
               "RelativeDocumentMoniker": "tryy\\Mainform.cs",
@@ -170,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "UCcreate.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\UCcreate.cs",
               "RelativeDocumentMoniker": "tryy\\UCcreate.cs",
@@ -182,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Changepwd.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\Changepwd.cs",
               "RelativeDocumentMoniker": "tryy\\Changepwd.cs",
@@ -194,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "ManageUser.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\ManageUser.cs",
               "RelativeDocumentMoniker": "tryy\\ManageUser.cs",
@@ -206,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Changepwd.cs",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\Changepwd.cs",
               "RelativeDocumentMoniker": "tryy\\Changepwd.cs",
@@ -219,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "ManageUser.cs",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\ManageUser.cs",
               "RelativeDocumentMoniker": "tryy\\ManageUser.cs",
@@ -232,20 +249,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 2,
               "Title": "UCcreate.cs",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\UCcreate.cs",
               "RelativeDocumentMoniker": "tryy\\UCcreate.cs",
               "ToolTip": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\UCcreate.cs",
               "RelativeToolTip": "tryy\\UCcreate.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAuwB8AAAAKAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACoAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T14:58:52.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "UCSearch.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\UCSearch.cs",
               "RelativeDocumentMoniker": "tryy\\UCSearch.cs",
@@ -257,20 +274,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "UCSearch.cs",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\UCSearch.cs",
               "RelativeDocumentMoniker": "tryy\\UCSearch.cs",
               "ToolTip": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\UCSearch.cs",
               "RelativeToolTip": "tryy\\UCSearch.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAuwBMAAAAHAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T15:37:36.632Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Mainform.cs",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\Mainform.cs",
               "RelativeDocumentMoniker": "tryy\\Mainform.cs",
