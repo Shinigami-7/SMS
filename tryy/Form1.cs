@@ -7,6 +7,7 @@ namespace tryy
         {
             InitializeComponent();
         }
+        //pls accept my pull request
 
         private void Form1_Load(object sender, EventArgs e)
         {
