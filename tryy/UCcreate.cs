@@ -28,19 +28,41 @@ namespace tryy
             cboclass.SelectedIndex = 0;
         }
 
+
+
+
         private void button1_Click(object sender, EventArgs e)
         {
-            int i = bls.CreateStudent(txtname.Text, txtguardianname.Text, txtguardianno.Text, cboclass.Text);
-            if (i > 0)
+            DataTable dt = bls.GetAllUserinfo(txtname.Text, cboclass.Text, txtguardianname.Text, txtguardianno.Text);
+
+            if (dt.Rows.Count > 0)
             {
-                MessageBox.Show("User Created");
+                MessageBox.Show("user alreasy exist");
+                return;
             }
+            else
+            {
+                int i = bls.CreateStudent(txtname.Text, txtguardianname.Text, txtguardianno.Text, cboclass.Text);
+                if (i > 0)
+                {
+                    MessageBox.Show("User Created");
+                }
+            }
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             ManageUser frm = new ManageUser();
             frm.Close();
+        }
+
+        private void UCcreate_Load(object sender, EventArgs e)
+        {
+            
+            cboclass.SelectedIndex = 0;
+
+
         }
     }
 }

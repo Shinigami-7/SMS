@@ -35,5 +35,31 @@ namespace Businesslayer
             da.Fill(dt);
             return dt;
         }
+        public DataTable GetAllUserbyusername(string std_name, string grade)
+        {
+            SqlConnection con = new SqlConnection("Data Source = SHINIGAMI\\SQLEXPRESS; Integrated Security=True; Initial Catalog=TMSDB");
+            string sql = "select * from tbstudent where std_name=@a and grade=@b";
+            SqlCommand cmd = new SqlCommand(sql, con);
+            cmd.Parameters.AddWithValue("@a", std_name);
+            cmd.Parameters.AddWithValue("@b", grade);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+        }
+        public DataTable GetAllUserinfo(string std_name, string grade,string gurdi_name,string gurdi_no)
+        {
+            SqlConnection con = new SqlConnection("Data Source = SHINIGAMI\\SQLEXPRESS; Integrated Security=True; Initial Catalog=TMSDB");
+            string sql = "select * from tbstudent where std_name=@a and grade=@b and gurdi_name=@c and gurdi_no=@d";
+            SqlCommand cmd = new SqlCommand(sql, con);
+            cmd.Parameters.AddWithValue("@a", std_name);
+            cmd.Parameters.AddWithValue("@b", grade);
+            cmd.Parameters.AddWithValue("@c", gurdi_name);
+            cmd.Parameters.AddWithValue("@d", gurdi_no);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+        }
     }
 }

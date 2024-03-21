@@ -162,6 +162,7 @@
             Controls.Add(groupBox1);
             Name = "UCcreate";
             Size = new Size(752, 579);
+            Load += UCcreate_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ResumeLayout(false);

@@ -65,7 +65,7 @@
             // panel2
             // 
             panel2.Dock = DockStyle.Bottom;
-            panel2.Location = new Point(0, 491);
+            panel2.Location = new Point(0, 525);
             panel2.Name = "panel2";
             panel2.Size = new Size(1030, 66);
             panel2.TabIndex = 1;
@@ -79,7 +79,7 @@
             panel3.Dock = DockStyle.Left;
             panel3.Location = new Point(0, 74);
             panel3.Name = "panel3";
-            panel3.Size = new Size(167, 417);
+            panel3.Size = new Size(167, 451);
             panel3.TabIndex = 2;
             // 
             // label5
@@ -87,9 +87,9 @@
             label5.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             label5.BackColor = Color.White;
             label5.Font = new Font("Segoe UI", 10F);
-            label5.Location = new Point(12, 131);
+            label5.Location = new Point(12, 156);
             label5.Name = "label5";
-            label5.Size = new Size(122, 37);
+            label5.Size = new Size(142, 37);
             label5.TabIndex = 3;
             label5.Text = "Back";
             label5.TextAlign = ContentAlignment.MiddleCenter;
@@ -100,9 +100,9 @@
             label3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             label3.BackColor = Color.White;
             label3.Font = new Font("Segoe UI", 10F);
-            label3.Location = new Point(12, 78);
+            label3.Location = new Point(12, 103);
             label3.Name = "label3";
-            label3.Size = new Size(122, 37);
+            label3.Size = new Size(142, 37);
             label3.TabIndex = 1;
             label3.Text = "Search User";
             label3.TextAlign = ContentAlignment.MiddleCenter;
@@ -113,9 +113,9 @@
             label2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             label2.BackColor = Color.White;
             label2.Font = new Font("Segoe UI", 10F);
-            label2.Location = new Point(12, 25);
+            label2.Location = new Point(12, 50);
             label2.Name = "label2";
-            label2.Size = new Size(122, 37);
+            label2.Size = new Size(142, 37);
             label2.TabIndex = 0;
             label2.Text = "Create User";
             label2.TextAlign = ContentAlignment.MiddleCenter;
@@ -126,15 +126,14 @@
             panel4.Dock = DockStyle.Fill;
             panel4.Location = new Point(167, 74);
             panel4.Name = "panel4";
-            panel4.Size = new Size(863, 417);
+            panel4.Size = new Size(863, 451);
             panel4.TabIndex = 3;
             // 
             // ManageUser
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1030, 557);
-            ControlBox = false;
+            ClientSize = new Size(1030, 591);
             Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(panel2);
