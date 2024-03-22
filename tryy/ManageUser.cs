@@ -41,5 +41,12 @@ namespace tryy
         {
             this.Close();
         }
+
+        private void lbledit_Click(object sender, EventArgs e)
+        {
+            UCEdit frm=new UCEdit();
+            panel4.Controls.Clear();
+            panel4.Controls.Add(frm);
+        }
     }
 }

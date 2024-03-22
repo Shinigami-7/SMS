@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eGFmH/fvK9VUhCKaTeIGvX+Ve/yRLiDe7k60h8tvULWhlSJsPo88OKNR97CP10PYk+BqkrT+lMzjulji5Tut2A==",
+  "dgSpecHash": "MRAG8gFwSsiAgNcQkiWi3J8rAP9BoWeR19GL6Ac8VnickBl1AtjJpijPooRwob/G0r28UT/KqXQU+BT5SRIBXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\tryy.csproj",
+  "projectFilePath": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\tryy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Shinigami\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Shinigami\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

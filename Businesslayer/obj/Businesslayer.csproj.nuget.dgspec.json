@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\Businesslayer\\Businesslayer.csproj": {}
+    "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\Businesslayer\\Businesslayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\Businesslayer\\Businesslayer.csproj": {
+    "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\Businesslayer\\Businesslayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\Businesslayer\\Businesslayer.csproj",
+        "projectUniqueName": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\Businesslayer\\Businesslayer.csproj",
         "projectName": "Businesslayer",
-        "projectPath": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\Businesslayer\\Businesslayer.csproj",
+        "projectPath": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\Businesslayer\\Businesslayer.csproj",
         "packagesPath": "C:\\Users\\Shinigami\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\Businesslayer\\obj\\",
+        "outputPath": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\Businesslayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shinigami\\AppData\\Roaming\\NuGet\\NuGet.Config",

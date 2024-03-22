@@ -33,7 +33,7 @@ namespace tryy
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DataTable dt = bls.GetAllUserinfo(txtname.Text, cboclass.Text, txtguardianname.Text, txtguardianno.Text);
+            DataTable dt = bls.GetAllUserinfo(Convert.ToInt32(txtroll.Text),txtname.Text, txtguardianname.Text, txtguardianno.Text,cboclass.Text);
 
             if (dt.Rows.Count > 0)
             {
@@ -42,7 +42,7 @@ namespace tryy
             }
             else
             {
-                int i = bls.CreateStudent(txtname.Text, txtguardianname.Text, txtguardianno.Text, cboclass.Text);
+                int i = bls.CreateStudent(Convert.ToInt32(txtroll.Text),txtname.Text, txtguardianname.Text, txtguardianno.Text, cboclass.Text);
                 if (i > 0)
                 {
                     MessageBox.Show("User Created");

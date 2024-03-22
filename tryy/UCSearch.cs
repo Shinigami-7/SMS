@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 
 namespace tryy
@@ -24,6 +25,7 @@ namespace tryy
         private void UCSearch_Load(object sender, EventArgs e)
         {
             cboclass.SelectedIndex = 0;
+            cboegrade.SelectedIndex = 0;
             LoadGrid();
         }
 
@@ -35,7 +37,7 @@ namespace tryy
 
         private void btnsearch_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -54,6 +56,17 @@ namespace tryy
             {
                 MessageBox.Show("Student not found");
             }
+            cboclass.SelectedIndex = 0;
+            txtSearch.Clear();
+        }
+
+        private void pbedit_Click(object sender, EventArgs e)
+        {
+     
+            DataTable dt = blu.EditStudent(Convert.ToInt32(txtroll.Text), txtename.Text, txtguardianname.Text, txtguardianno.Text, cboegrade.Text);
+
+
+
         }
     }
 }

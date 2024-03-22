@@ -37,6 +37,7 @@
             label3 = new Label();
             label2 = new Label();
             panel4 = new Panel();
+            lbledit = new Label();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
             SuspendLayout();
@@ -73,6 +74,7 @@
             // panel3
             // 
             panel3.BackColor = Color.Silver;
+            panel3.Controls.Add(lbledit);
             panel3.Controls.Add(label5);
             panel3.Controls.Add(label3);
             panel3.Controls.Add(label2);
@@ -87,7 +89,7 @@
             label5.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             label5.BackColor = Color.White;
             label5.Font = new Font("Segoe UI", 10F);
-            label5.Location = new Point(12, 156);
+            label5.Location = new Point(12, 215);
             label5.Name = "label5";
             label5.Size = new Size(142, 37);
             label5.TabIndex = 3;
@@ -100,7 +102,7 @@
             label3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             label3.BackColor = Color.White;
             label3.Font = new Font("Segoe UI", 10F);
-            label3.Location = new Point(12, 103);
+            label3.Location = new Point(12, 105);
             label3.Name = "label3";
             label3.Size = new Size(142, 37);
             label3.TabIndex = 1;
@@ -128,6 +130,19 @@
             panel4.Name = "panel4";
             panel4.Size = new Size(863, 451);
             panel4.TabIndex = 3;
+            // 
+            // lbledit
+            // 
+            lbledit.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            lbledit.BackColor = Color.White;
+            lbledit.Font = new Font("Segoe UI", 10F);
+            lbledit.Location = new Point(12, 160);
+            lbledit.Name = "lbledit";
+            lbledit.Size = new Size(142, 37);
+            lbledit.TabIndex = 4;
+            lbledit.Text = "Edit User";
+            lbledit.TextAlign = ContentAlignment.MiddleCenter;
+            lbledit.Click += lbledit_Click;
             // 
             // ManageUser
             // 
@@ -159,5 +174,6 @@
         private Label label2;
         private Label label5;
         private Label label3;
+        private Label lbledit;
     }
 }

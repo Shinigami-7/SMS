@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
+            txtroll = new TextBox();
+            label5 = new Label();
             cboclass = new ComboBox();
             txtguardianno = new TextBox();
             txtguardianname = new TextBox();
@@ -44,6 +46,8 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(txtroll);
+            groupBox1.Controls.Add(label5);
             groupBox1.Controls.Add(cboclass);
             groupBox1.Controls.Add(txtguardianno);
             groupBox1.Controls.Add(txtguardianname);
@@ -63,47 +67,64 @@
             groupBox1.Text = "New Student";
             groupBox1.Enter += groupBox1_Enter;
             // 
+            // txtroll
+            // 
+            txtroll.Location = new Point(272, 92);
+            txtroll.Multiline = true;
+            txtroll.Name = "txtroll";
+            txtroll.Size = new Size(104, 39);
+            txtroll.TabIndex = 0;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(46, 99);
+            label5.Name = "label5";
+            label5.Size = new Size(92, 32);
+            label5.TabIndex = 10;
+            label5.Text = "Roll No";
+            // 
             // cboclass
             // 
             cboclass.FormattingEnabled = true;
             cboclass.Items.AddRange(new object[] { "Choose Class", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
-            cboclass.Location = new Point(270, 241);
+            cboclass.Location = new Point(272, 284);
             cboclass.Name = "cboclass";
             cboclass.Size = new Size(182, 40);
-            cboclass.TabIndex = 9;
+            cboclass.TabIndex = 4;
             cboclass.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // txtguardianno
             // 
-            txtguardianno.Location = new Point(270, 191);
+            txtguardianno.Location = new Point(272, 236);
             txtguardianno.Multiline = true;
             txtguardianno.Name = "txtguardianno";
             txtguardianno.Size = new Size(313, 39);
-            txtguardianno.TabIndex = 8;
+            txtguardianno.TabIndex = 3;
             // 
             // txtguardianname
             // 
-            txtguardianname.Location = new Point(270, 141);
+            txtguardianname.Location = new Point(272, 188);
             txtguardianname.Multiline = true;
             txtguardianname.Name = "txtguardianname";
             txtguardianname.Size = new Size(313, 39);
-            txtguardianname.TabIndex = 7;
+            txtguardianname.TabIndex = 2;
             // 
             // txtname
             // 
-            txtname.Location = new Point(270, 91);
+            txtname.Location = new Point(272, 140);
             txtname.Multiline = true;
             txtname.Name = "txtname";
             txtname.Size = new Size(313, 39);
-            txtname.TabIndex = 6;
+            txtname.TabIndex = 1;
             // 
             // button2
             // 
             button2.Font = new Font("Segoe UI", 10F);
-            button2.Location = new Point(434, 308);
+            button2.Location = new Point(436, 354);
             button2.Name = "button2";
             button2.Size = new Size(112, 34);
-            button2.TabIndex = 5;
+            button2.TabIndex = 6;
             button2.Text = "Cancel";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
@@ -111,10 +132,10 @@
             // button1
             // 
             button1.Font = new Font("Segoe UI", 10F);
-            button1.Location = new Point(289, 308);
+            button1.Location = new Point(291, 354);
             button1.Name = "button1";
             button1.Size = new Size(112, 34);
-            button1.TabIndex = 4;
+            button1.TabIndex = 5;
             button1.Text = "Submit";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
@@ -122,7 +143,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(44, 251);
+            label4.Location = new Point(46, 295);
             label4.Name = "label4";
             label4.Size = new Size(67, 32);
             label4.TabIndex = 3;
@@ -131,7 +152,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(44, 200);
+            label3.Location = new Point(46, 246);
             label3.Name = "label3";
             label3.Size = new Size(149, 32);
             label3.TabIndex = 2;
@@ -140,7 +161,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(44, 149);
+            label2.Location = new Point(46, 197);
             label2.Name = "label2";
             label2.Size = new Size(177, 32);
             label2.TabIndex = 1;
@@ -149,7 +170,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(44, 98);
+            label1.Location = new Point(46, 148);
             label1.Name = "label1";
             label1.Size = new Size(78, 32);
             label1.TabIndex = 0;
@@ -181,5 +202,7 @@
         private TextBox txtguardianno;
         private TextBox txtguardianname;
         private TextBox txtname;
+        private TextBox txtroll;
+        private Label label5;
     }
 }

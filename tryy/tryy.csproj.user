@@ -19,6 +19,9 @@
     <Compile Update="UCcreate.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UCEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UCSearch.cs">
       <SubType>UserControl</SubType>
     </Compile>

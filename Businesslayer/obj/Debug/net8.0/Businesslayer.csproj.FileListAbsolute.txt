@@ -11,3 +11,16 @@ C:\Users\Shinigami\Desktop\TMS\TMS\Businesslayer\obj\Debug\net8.0\Businesslayer.
 C:\Users\Shinigami\Desktop\TMS\TMS\Businesslayer\obj\Debug\net8.0\refint\Businesslayer.dll
 C:\Users\Shinigami\Desktop\TMS\TMS\Businesslayer\obj\Debug\net8.0\Businesslayer.pdb
 C:\Users\Shinigami\Desktop\TMS\TMS\Businesslayer\obj\Debug\net8.0\ref\Businesslayer.dll
+C:\Users\Shinigami\Desktop\SMS\SMS\Businesslayer\bin\Debug\net8.0\Businesslayer.deps.json
+C:\Users\Shinigami\Desktop\SMS\SMS\Businesslayer\bin\Debug\net8.0\Businesslayer.dll
+C:\Users\Shinigami\Desktop\SMS\SMS\Businesslayer\bin\Debug\net8.0\Businesslayer.pdb
+C:\Users\Shinigami\Desktop\SMS\SMS\Businesslayer\obj\Debug\net8.0\Businesslayer.csproj.AssemblyReference.cache
+C:\Users\Shinigami\Desktop\SMS\SMS\Businesslayer\obj\Debug\net8.0\Businesslayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shinigami\Desktop\SMS\SMS\Businesslayer\obj\Debug\net8.0\Businesslayer.AssemblyInfoInputs.cache
+C:\Users\Shinigami\Desktop\SMS\SMS\Businesslayer\obj\Debug\net8.0\Businesslayer.AssemblyInfo.cs
+C:\Users\Shinigami\Desktop\SMS\SMS\Businesslayer\obj\Debug\net8.0\Businesslayer.csproj.CoreCompileInputs.cache
+C:\Users\Shinigami\Desktop\SMS\SMS\Businesslayer\obj\Debug\net8.0\Businesslayer.sourcelink.json
+C:\Users\Shinigami\Desktop\SMS\SMS\Businesslayer\obj\Debug\net8.0\Businesslayer.dll
+C:\Users\Shinigami\Desktop\SMS\SMS\Businesslayer\obj\Debug\net8.0\refint\Businesslayer.dll
+C:\Users\Shinigami\Desktop\SMS\SMS\Businesslayer\obj\Debug\net8.0\Businesslayer.pdb
+C:\Users\Shinigami\Desktop\SMS\SMS\Businesslayer\obj\Debug\net8.0\ref\Businesslayer.dll
