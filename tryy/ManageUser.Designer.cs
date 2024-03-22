@@ -33,11 +33,11 @@
             label1 = new Label();
             panel2 = new Panel();
             panel3 = new Panel();
+            lbledit = new Label();
             label5 = new Label();
             label3 = new Label();
             label2 = new Label();
             panel4 = new Panel();
-            lbledit = new Label();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
             SuspendLayout();
@@ -84,6 +84,21 @@
             panel3.Size = new Size(167, 451);
             panel3.TabIndex = 2;
             // 
+            // lbledit
+            // 
+            lbledit.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            lbledit.BackColor = Color.White;
+            lbledit.Font = new Font("Segoe UI", 10F);
+            lbledit.Location = new Point(12, 160);
+            lbledit.Name = "lbledit";
+            lbledit.Size = new Size(142, 37);
+            lbledit.TabIndex = 4;
+            lbledit.Text = "Edit User";
+            lbledit.TextAlign = ContentAlignment.MiddleCenter;
+            lbledit.Click += lbledit_Click;
+            lbledit.MouseLeave += lbledit_MouseLeave;
+            lbledit.MouseHover += lbledit_MouseHover;
+            // 
             // label5
             // 
             label5.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
@@ -96,6 +111,8 @@
             label5.Text = "Back";
             label5.TextAlign = ContentAlignment.MiddleCenter;
             label5.Click += label5_Click;
+            label5.MouseLeave += label5_MouseLeave;
+            label5.MouseHover += label5_MouseHover;
             // 
             // label3
             // 
@@ -109,6 +126,8 @@
             label3.Text = "Search User";
             label3.TextAlign = ContentAlignment.MiddleCenter;
             label3.Click += label3_Click;
+            label3.MouseLeave += label3_MouseLeave;
+            label3.MouseHover += label3_MouseHover;
             // 
             // label2
             // 
@@ -122,6 +141,8 @@
             label2.Text = "Create User";
             label2.TextAlign = ContentAlignment.MiddleCenter;
             label2.Click += label2_Click;
+            label2.MouseLeave += label2_MouseLeave;
+            label2.MouseHover += label2_MouseHover;
             // 
             // panel4
             // 
@@ -130,19 +151,6 @@
             panel4.Name = "panel4";
             panel4.Size = new Size(863, 451);
             panel4.TabIndex = 3;
-            // 
-            // lbledit
-            // 
-            lbledit.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            lbledit.BackColor = Color.White;
-            lbledit.Font = new Font("Segoe UI", 10F);
-            lbledit.Location = new Point(12, 160);
-            lbledit.Name = "lbledit";
-            lbledit.Size = new Size(142, 37);
-            lbledit.TabIndex = 4;
-            lbledit.Text = "Edit User";
-            lbledit.TextAlign = ContentAlignment.MiddleCenter;
-            lbledit.Click += lbledit_Click;
             // 
             // ManageUser
             // 

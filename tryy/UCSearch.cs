@@ -63,7 +63,7 @@ namespace tryy
         private void pbedit_Click(object sender, EventArgs e)
         {
      
-            DataTable dt = blu.EditStudent(Convert.ToInt32(txtroll.Text), txtename.Text, txtguardianname.Text, txtguardianno.Text, cboegrade.Text);
+            int i = blu.EditStudent(Convert.ToInt32(txtroll.Text), txtename.Text, txtguardianname.Text, txtguardianno.Text, cboegrade.Text);
 
 
 

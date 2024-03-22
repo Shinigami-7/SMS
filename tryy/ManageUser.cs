@@ -44,9 +44,49 @@ namespace tryy
 
         private void lbledit_Click(object sender, EventArgs e)
         {
-            UCEdit frm=new UCEdit();
+            UCEdit frm = new UCEdit();
             panel4.Controls.Clear();
             panel4.Controls.Add(frm);
+        }
+
+        private void label2_MouseHover(object sender, EventArgs e)
+        {
+            label2.BackColor = Color.LightBlue;
+        }
+
+        private void label3_MouseHover(object sender, EventArgs e)
+        {
+            label3.BackColor = Color.LightBlue;
+        }
+
+        private void lbledit_MouseHover(object sender, EventArgs e)
+        {
+            lbledit.BackColor = Color.LightBlue;
+        }
+
+        private void label5_MouseHover(object sender, EventArgs e)
+        {
+            label5.BackColor = Color.Red;
+        }
+
+        private void label2_MouseLeave(object sender, EventArgs e)
+        {
+            label2.BackColor = Color.White;
+        }
+
+        private void label3_MouseLeave(object sender, EventArgs e)
+        {
+            label3.BackColor = Color.White;
+        }
+
+        private void lbledit_MouseLeave(object sender, EventArgs e)
+        {
+            lbledit.BackColor = Color.White;
+        }
+
+        private void label5_MouseLeave(object sender, EventArgs e)
+        {
+            label5.BackColor= Color.White;
         }
     }
 }
