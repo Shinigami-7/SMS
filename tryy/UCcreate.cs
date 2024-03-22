@@ -33,7 +33,7 @@ namespace tryy
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DataTable dt = bls.GetAllUserinfo(Convert.ToInt32(txtroll.Text),txtname.Text, txtguardianname.Text, txtguardianno.Text,cboclass.Text);
+            DataTable dt = bls.GetAllUserinfo(txtroll.Text,txtname.Text, txtguardianname.Text, txtguardianno.Text,cboclass.Text);
 
             if (dt.Rows.Count > 0)
             {
@@ -48,7 +48,11 @@ namespace tryy
                     MessageBox.Show("User Created");
                 }
             }
-
+            txtroll.Clear();
+            txtguardianname.Clear();
+            txtguardianno.Clear();
+            txtname.Clear();
+            cboclass.SelectedIndex = 0;
         }
 
         private void button2_Click(object sender, EventArgs e)

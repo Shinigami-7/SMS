@@ -86,4 +86,3 @@ C:\Users\Shinigami\Desktop\SMS\SMS\tryy\obj\Debug\net8.0-windows\refint\tryy.dll
 C:\Users\Shinigami\Desktop\SMS\SMS\tryy\obj\Debug\net8.0-windows\tryy.pdb
 C:\Users\Shinigami\Desktop\SMS\SMS\tryy\obj\Debug\net8.0-windows\tryy.genruntimeconfig.cache
 C:\Users\Shinigami\Desktop\SMS\SMS\tryy\obj\Debug\net8.0-windows\ref\tryy.dll
-C:\Users\Shinigami\Desktop\SMS\SMS\tryy\obj\Debug\net8.0-windows\tryy.UCEdit.resources

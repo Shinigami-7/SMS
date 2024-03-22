@@ -7,16 +7,28 @@
       "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\ucsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F5B896E2-7CCC-4FED-939C-5A1FEA500016}|Businesslayer\\Businesslayer.csproj|C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\businesslayer\\bllstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5B896E2-7CCC-4FED-939C-5A1FEA500016}|Businesslayer\\Businesslayer.csproj|solutionrelative:businesslayer\\bllstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\ucsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\ucsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|c:\\users\\shinigami\\desktop\\sms\\sms\\tryy\\ucedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\ucedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\uccreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\uccreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|c:\\users\\shinigami\\desktop\\sms\\sms\\tryy\\ucedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\ucedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\manageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\manageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\manageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,22 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\uccreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\uccreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\uccreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\uccreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\manageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\manageuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5B896E2-7CCC-4FED-939C-5A1FEA500016}|Businesslayer\\Businesslayer.csproj|C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\businesslayer\\bllstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5B896E2-7CCC-4FED-939C-5A1FEA500016}|Businesslayer\\Businesslayer.csproj|solutionrelative:businesslayer\\bllstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5B896E2-7CCC-4FED-939C-5A1FEA500016}|Businesslayer\\Businesslayer.csproj|C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\businesslayer\\blluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|solutionrelative:tryy\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35022855-5308-4DBB-B0E3-8804EB82C643}|tryy\\tryy.csproj|C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,32 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UCEdit.cs",
-              "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\UCEdit.cs",
-              "RelativeDocumentMoniker": "tryy\\UCEdit.cs",
-              "ToolTip": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\UCEdit.cs",
-              "RelativeToolTip": "tryy\\UCEdit.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAnwB8AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T11:49:04.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UCEdit.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\UCEdit.cs",
-              "RelativeDocumentMoniker": "tryy\\UCEdit.cs",
-              "ToolTip": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\UCEdit.cs [Design]",
-              "RelativeToolTip": "tryy\\UCEdit.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T09:42:38.592Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "BLLUser.cs",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\Businesslayer\\BLLUser.cs",
               "RelativeDocumentMoniker": "Businesslayer\\BLLUser.cs",
@@ -132,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "NewReg.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\NewReg.cs",
               "RelativeDocumentMoniker": "tryy\\NewReg.cs",
@@ -144,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 14,
               "Title": "NewReg.cs",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\NewReg.cs",
               "RelativeDocumentMoniker": "tryy\\NewReg.cs",
@@ -157,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\Form1.cs",
               "RelativeDocumentMoniker": "tryy\\Form1.cs",
@@ -165,11 +132,12 @@
               "RelativeToolTip": "tryy\\Form1.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAAACoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T07:06:53.194Z"
+              "WhenOpened": "2024-03-17T07:06:53.194Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UCSearch.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\UCSearch.cs",
               "RelativeDocumentMoniker": "tryy\\UCSearch.cs",
@@ -181,55 +149,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "BLLStudent.cs",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\Businesslayer\\BLLStudent.cs",
               "RelativeDocumentMoniker": "Businesslayer\\BLLStudent.cs",
               "ToolTip": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\Businesslayer\\BLLStudent.cs",
               "RelativeToolTip": "Businesslayer\\BLLStudent.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAD4vz0AAAArAAAA",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAUwFYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T15:44:48.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\Form1.cs",
               "RelativeDocumentMoniker": "tryy\\Form1.cs",
-              "ToolTip": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\Form1.cs [Design]",
-              "RelativeToolTip": "..\\..\\TMS\\TMS\\tryy\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\Form1.cs [Design]",
+              "RelativeToolTip": "tryy\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T07:01:08.782Z"
+              "WhenOpened": "2024-03-17T07:01:08.782Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\Program.cs",
               "RelativeDocumentMoniker": "tryy\\Program.cs",
               "ToolTip": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\Program.cs",
               "RelativeToolTip": "tryy\\Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAA2wA0AAAAqAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAMwA0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T16:46:46.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 5,
               "Title": "Mainform.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\Mainform.cs",
               "RelativeDocumentMoniker": "tryy\\Mainform.cs",
-              "ToolTip": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\Mainform.cs [Design]",
-              "RelativeToolTip": "..\\..\\TMS\\TMS\\tryy\\Mainform.cs [Design]",
+              "ToolTip": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\Mainform.cs [Design]",
+              "RelativeToolTip": "tryy\\Mainform.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T07:06:40.813Z"
+              "WhenOpened": "2024-03-17T07:06:40.813Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "UCcreate.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\UCcreate.cs",
               "RelativeDocumentMoniker": "tryy\\UCcreate.cs",
@@ -241,18 +211,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 16,
               "Title": "Changepwd.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\Changepwd.cs",
               "RelativeDocumentMoniker": "tryy\\Changepwd.cs",
-              "ToolTip": "C:\\Users\\Shinigami\\Desktop\\TMS\\TMS\\tryy\\Changepwd.cs [Design]",
-              "RelativeToolTip": "..\\..\\TMS\\TMS\\tryy\\Changepwd.cs [Design]",
+              "ToolTip": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\Changepwd.cs [Design]",
+              "RelativeToolTip": "tryy\\Changepwd.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T14:37:26.74Z"
+              "WhenOpened": "2024-03-17T14:37:26.74Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "ManageUser.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\ManageUser.cs",
               "RelativeDocumentMoniker": "tryy\\ManageUser.cs",
@@ -264,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 15,
               "Title": "Changepwd.cs",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\Changepwd.cs",
               "RelativeDocumentMoniker": "tryy\\Changepwd.cs",
@@ -272,30 +243,31 @@
               "RelativeToolTip": "tryy\\Changepwd.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAArwDMAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T14:43:22.674Z"
+              "WhenOpened": "2024-03-17T14:43:22.674Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ManageUser.cs",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\ManageUser.cs",
               "RelativeDocumentMoniker": "tryy\\ManageUser.cs",
               "ToolTip": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\ManageUser.cs",
               "RelativeToolTip": "tryy\\ManageUser.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAswDAAAAAMAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAmwCwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T07:12:46.899Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "UCcreate.cs",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\UCcreate.cs",
               "RelativeDocumentMoniker": "tryy\\UCcreate.cs",
               "ToolTip": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\UCcreate.cs",
               "RelativeToolTip": "tryy\\UCcreate.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAswCoAAAAMAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAADYAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T14:58:52.843Z",
               "EditorCaption": ""
@@ -308,14 +280,14 @@
               "RelativeDocumentMoniker": "tryy\\UCSearch.cs",
               "ToolTip": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\UCSearch.cs",
               "RelativeToolTip": "tryy\\UCSearch.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAswEEAAABHAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAgwFEAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T15:37:36.632Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Mainform.cs",
               "DocumentMoniker": "C:\\Users\\Shinigami\\Desktop\\SMS\\SMS\\tryy\\Mainform.cs",
               "RelativeDocumentMoniker": "tryy\\Mainform.cs",
@@ -323,7 +295,8 @@
               "RelativeToolTip": "tryy\\Mainform.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAiwCcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T07:11:41.65Z"
+              "WhenOpened": "2024-03-17T07:11:41.65Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Data.SqlClient;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -62,11 +63,23 @@ namespace tryy
 
         private void pbedit_Click(object sender, EventArgs e)
         {
-     
-            DataTable dt = blu.EditStudent(Convert.ToInt32(txtroll.Text), txtename.Text, txtguardianname.Text, txtguardianno.Text, cboegrade.Text);
+
+            int i = blu.EditStudent(Convert.ToInt32(txtroll.Text), txtename.Text, txtguardianname.Text, txtguardianno.Text, cboegrade.Text);
+            LoadGrid();
+            cboegrade.SelectedIndex = 0;
+            txtename.Clear();
+            txtguardianname.Clear();
+            txtguardianno.Clear();
+            txtroll.Clear();
 
 
+        }
 
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            int i = blu.deleteuser(Convert.ToInt32(txtdroll.Text));
+            LoadGrid();
+            txtdroll.Clear();
         }
     }
 }
