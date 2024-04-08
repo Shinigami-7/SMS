@@ -63,16 +63,28 @@ namespace tryy
 
         private void pbedit_Click(object sender, EventArgs e)
         {
+           
+                if (blu.EditStudent(Convert.ToInt32(txtroll.Text), txtename.Text, txtguardianname.Text, txtguardianno.Text, cboegrade.Text) > 0)
+                {
+                    LoadGrid();
+                    cboegrade.SelectedIndex = 0;
+                    txtename.Clear();
+                    txtguardianname.Clear();
+                    txtguardianno.Clear();
+                    txtroll.Clear();
+                }
+                else
+                {
+                    MessageBox.Show("invalid input");
+                    cboegrade.SelectedIndex = 0;
+                    txtename.Clear();
+                    txtguardianname.Clear();
+                    txtguardianno.Clear();
+                    txtroll.Clear();
+                    return;
+                }
 
-            int i = blu.EditStudent(Convert.ToInt32(txtroll.Text), txtename.Text, txtguardianname.Text, txtguardianno.Text, cboegrade.Text);
-            LoadGrid();
-            cboegrade.SelectedIndex = 0;
-            txtename.Clear();
-            txtguardianname.Clear();
-            txtguardianno.Clear();
-            txtroll.Clear();
-
-
+            
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)

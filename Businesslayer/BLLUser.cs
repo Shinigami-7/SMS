@@ -36,5 +36,16 @@ namespace Businesslayer
             da.Fill(dt);
             return dt;
         }
+        public DataTable loginUser(string Username, string Password)
+        {
+
+            SqlConnection con = new SqlConnection("Data Source = SHINIGAMI\\SQLEXPRESS; Integrated Security=True; Initial Catalog=TMSDB");
+            string sql = "select Username, Password from tbuser";
+            SqlCommand cmd = new SqlCommand(sql, con);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+        }
     }
 }

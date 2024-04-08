@@ -1,6 +1,7 @@
 using Businesslayer;
 using System.Data;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 namespace tryy
 {
     public partial class Form1 : Form
@@ -34,8 +35,19 @@ namespace tryy
                 txtpassword.Focus();
                 return;
             }
-            frm.Show();
-            this.Hide();
+
+            DataTable dt1 = blu.loginUser(txtusername.Text,txtpassword.Text);
+            if (dt1.Rows.Count > 0)
+            {
+                frm.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Incorect username or password");
+                return;
+            }
+            
             
         }
 
